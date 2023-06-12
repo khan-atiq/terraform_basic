@@ -1,6 +1,6 @@
 
 locals {
-	instances = {"Aashish":"ami-0b0dcb5067f052a63","Braj":"ami-08c40ec9ead48947"}
+	instances = {"Aashish":"ami-0b0dcb5067f052a63","Braj":"ami-08c40ec9ead489470"}
 }
 
 resource "aws_instance" "aws_ec2_test" {
